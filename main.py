@@ -42,9 +42,9 @@ if None not in f and button:
     Model=pickle.load(open('LinearModel.pkl','rb'))
     prediction=Model.predict([Features])[0]
     
-    st.markdown(f"<h2 style='text-align: center; color: #6A3BFF;'>Happy Traveling!</h1>", unsafe_allow_html=True)
+    st.markdown(f"<h2 style='text-align: center; color: #6A3BFF;'>Happy Travelling!!!</h1>", unsafe_allow_html=True)
     st.markdown(f"<h2 style='text-align: center; color: #6A3BFF;'>Your Approximate ✈️ Flight Price is Rs.{round(prediction)}/-</h1>", unsafe_allow_html=True)
-    st.image("plane.gif",width=200,caption="Happy Traveling!",use_column_width=True)
+    st.image("plane.gif",width=200,caption="Happy Travelling!!!",use_column_width=True)
 
 else:
     st.markdown(f"<h2 style='text-align: center; color: white;'>Enter all the values to get your ✈️ flight price</h1>", unsafe_allow_html=True)
@@ -52,7 +52,7 @@ else:
         with open(file,"rb") as f:
             data = f.read()
         return base64.b64encode(data).decode()
-    img = get_img_as_base64("flight.jpg")
+    img = get_img_as_base64("aero.jpg")
     page_bg_img = f"""
     <style>
     [data-testid="stAppViewContainer"] > .main {{
