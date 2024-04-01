@@ -28,7 +28,7 @@ Destination_dict={'Delhi':0,'Hyderabad':1,'Bangalore':2,'Mumbai':3,'Chennai':4,'
 Class=st.sidebar.selectbox("Class",(None,"Economy","Business"))
 Class_dict={'Economy':0,'Business':1}
 #Days_After____________________________________________________________________________________________________
-Date=st.sidebar.date_input("Departure Date",min_value=datetime.today(),max_value=datetime.today()+timedelta(days=50))
+Date=st.sidebar.date_input("Departure Date",min_value=datetime.today(),max_value=datetime.today()+timedelta(days=2000))
 daY_diff=datetime.strptime(str(Date),"%Y-%m-%d")-datetime.today()
 daY_diff=int(daY_diff.days+1)
 #Load the saved model___________________________________________________________________________________________________
