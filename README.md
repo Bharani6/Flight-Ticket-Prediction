@@ -33,4 +33,4 @@ Integrate the trained model into a production environment:
 Contributions to the project are welcome! Feel free to open issues or pull requests for improvements, bug fixes, or new features.
 
 ## Contact
-For any questions or support, please contact [www.linkedin.com/in/bharanidharan-ravichandran-74a7402b4].
+For any questions or support, please contact [www.linkedin.com/in/bharanidharan-ravichandran-0612rb].
